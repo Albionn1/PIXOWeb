@@ -7,6 +7,7 @@ import { AddRegularUser } from './components/AddRegularUser';
 
 
 import './custom.css'
+import { loginPage } from './components/loginPage';
 
 export default class App extends Component {
   static displayName = App.name;
@@ -16,7 +17,10 @@ export default class App extends Component {
       <Layout>
         <Route exact path='/' component={FetchUser} />
         <Route exact path='/addUser' component={AddRegularUser} />
-      </Layout>
+            <Route exact path='/loginPage' component={ loginPage } />
+
+        </Layout>
+
     );
   }
 }

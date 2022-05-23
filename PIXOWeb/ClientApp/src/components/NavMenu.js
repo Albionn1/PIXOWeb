@@ -34,10 +34,10 @@ export class NavMenu extends Component {
                   <NavLink tag={Link} className="nav-text-color ml-3" to="/">Home</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink tag={Link} className="nav-text-color ml-3" to="/AddRegularUser">Sign in</NavLink>
+                  <NavLink tag={Link} className="nav-text-color ml-3" to="/AddUser">Sign in</NavLink>
                 </NavItem>
                   <NavItem>
-                    <NavLink tag={Link} className="nav-text-color ml-3 to="/loginPage">Login</NavLink>
+                    <NavLink tag={Link} className="nav-text-color ml-3" to="/loginPage">Login</NavLink>
                   </NavItem>
               </ul>
             </Collapse>
