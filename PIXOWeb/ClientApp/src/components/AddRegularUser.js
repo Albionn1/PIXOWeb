@@ -28,7 +28,8 @@ var AddRegularUser = /** @class */ (function (_super) {
             .then(function (data) {
             _this.setState({ cityList: data });
         });
-        var userId = 5;
+        var userId = 1;
+        //var userId = this.props.match.params["userId"];
         // This will set state for Edit employee  
         if (userId > 0) {
             fetch('api/User/Details/' + userId)

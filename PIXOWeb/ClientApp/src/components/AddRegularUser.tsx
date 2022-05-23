@@ -21,7 +21,8 @@ export class AddRegularUser extends React.Component<RouteComponentProps<{}>, Add
                 this.setState({ cityList: data });
             });
 
-        var userId = 5;
+        var userId = 1;
+        //var userId = this.props.match.params["userId"];
 
         // This will set state for Edit employee  
         if (userId > 0) {

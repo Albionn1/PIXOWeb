@@ -45,6 +45,7 @@
     <None Remove="ClientApp\routes.tsx" />
     <None Remove="ClientApp\src\components\AddRegularUser.tsx" />
     <None Remove="ClientApp\src\components\fetchRegularUsers.tsx" />
+    <None Remove="ClientApp\src\components\loginPage.tsx" />
   </ItemGroup>
 
   <ItemGroup>
