@@ -31,18 +31,18 @@ var loginPage = /** @class */ (function (_super) {
         return _super !== null && _super.apply(this, arguments) || this;
     }
     loginPage.prototype.render = function () {
-        return (React.createElement("div", { className: "form my-auto" },
+        return (React.createElement("div", { className: "form center-form" },
             React.createElement("form", null,
-                React.createElement("div", { className: "form-group my-auto" },
+                React.createElement("div", { className: "form-group" },
                     React.createElement("label", null, "Username "),
                     React.createElement("div", { className: "col-sm-4" },
                         React.createElement("input", { type: "text", name: "uname", className: "form-control input-sm", required: true }))),
-                React.createElement("div", { className: "form-group my-auto" },
+                React.createElement("div", { className: "form-group" },
                     React.createElement("label", null, "Password "),
                     React.createElement("div", { className: "col-sm-4" },
                         React.createElement("input", { type: "password", name: "pass", className: "form-control input-sm", required: true }),
-                        React.createElement("small", { id: "emailHelp", className: "form-text text-muted" }, "We'll never share your email with anyone else."))),
-                React.createElement("div", { className: "btn btn-primary my-auto" },
+                        React.createElement("small", { id: "emailHelp", className: "form-text text-muted" }, "We'll never share your informations with anyone else."))),
+                React.createElement("div", { className: "btn btn-primary" },
                     React.createElement("input", { type: "submit" })))));
     };
     return loginPage;

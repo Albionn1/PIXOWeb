@@ -15,24 +15,24 @@ import { Component } from 'react';
 export class loginPage extends Component { 
     render() {
         return (
-            <div className="form my-auto">
+            <div className="form center-form">
                 <form>
-                    <div className="form-group my-auto">
+                    <div className="form-group">
                         <label>Username </label>
                         <div className="col-sm-4">
                         <input type="text" name="uname" className="form-control input-sm" required />
                             {/*{renderErrorMessage("uname")}*/}
                         </div>
                     </div>
-                    <div className="form-group my-auto">
+                    <div className="form-group">
                         <label>Password </label>
                         <div className="col-sm-4">
                         <input type="password" name="pass" className="form-control input-sm" required />
-                            <small id="emailHelp" className="form-text text-muted">We'll never share your email with anyone else.</small>
+                            <small id="emailHelp" className="form-text text-muted">We'll never share your informations with anyone else.</small>
                         </div>
                         {/* {renderErrorMessage("pass")}*/}
                     </div>
-                    <div className="btn btn-primary my-auto">
+                    <div className="btn btn-primary">
                         <input type="submit" />
                     </div>
                 </form>
